@@ -61,8 +61,8 @@ int main(int argc, char *argv[]) {
     cudaStream_t stream = NULL;
     gesvdjInfo_t gesvdj_params = NULL;
 
-    const int m = 3;                   /* 1 <= m <= 32 */
-    const int n = 2;                   /* 1 <= n <= 32 */
+    const int m = 3;
+    const int n = 2;
     const int lda = m;                 /* lda >= m */
     const int ldu = m;                 /* ldu >= m */
     const int ldv = n;                 /* ldv >= n */
